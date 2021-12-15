@@ -127,6 +127,7 @@ public class DashBoard_Page extends Base{
 			
 		}
 	}
+	
 	public void changeLocation()
 	{
 		try {
@@ -140,7 +141,6 @@ public class DashBoard_Page extends Base{
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		}
-		
+		}		
 	}
 	}

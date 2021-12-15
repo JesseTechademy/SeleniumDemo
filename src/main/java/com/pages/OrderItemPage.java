@@ -88,7 +88,7 @@ public class OrderItemPage extends Base{
 				checkoutBtn.click();
 				Thread.sleep(10000);
 				wait.until(ExpectedConditions.elementToBeClickable(changeAddr));
-				//wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.id("loader-background"))));
+				Thread.sleep(10000);
 				changeAddr.click();
 				wait.until(ExpectedConditions.elementToBeClickable(addAddr));
 				Thread.sleep(5000);
